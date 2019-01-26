@@ -1,0 +1,25 @@
+﻿
+.side-nav {
+    
+    width:200px;
+    position:fixed;
+    border-radius:0;
+    height:100%;
+}
+
+    .side-nav .navbar-nav > li {
+        float: none;
+        width: 139px;
+        top:0;
+    }
+
+    .side-nav + .container {
+    
+        padding-left:160px;
+    }
+
+    .side-nav .navbar-nav > li > .dropdown-menu {
+    
+        margin-top:50px;
+        margin-left:140px;
+    }

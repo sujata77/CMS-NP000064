@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DatabaseConnection-Web.config Connection String" description="DatabaseConnection Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:np000064cmsdbserver.database.windows.net,1433;Initial Catalog=NP000064CMS_db;Persist Security Info=False;User ID=np000064;Password=Sujata@@;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\LBEF\\6th\ Sem\\cloud\\cms\\ContainerManagementSystem\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DatabaseConnection']/@connectionString" />
+  </parameter>
+</parameters>
